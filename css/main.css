@@ -18,28 +18,6 @@
       display: inline-block;
       padding-left: 1rem; }
 
-/* NAVIGATION STYLES */
-.nav-toggle {
-  display: none; }
-
-.main-nav {
-  margin-bottom: 0px;
-  background: #222834;
-  opacity: 0.9;
-  position: absolute;
-  z-index: 999;
-  width: 100%;
-  border-bottom: 5px solid #a99c67;
-  overflow: visible; }
-  .main-nav ul {
-    list-style: none; }
-    .main-nav ul li {
-      display: inline-block;
-      padding-right: 4rem; }
-      .main-nav ul li a {
-        color: #fff;
-        text-decoration: none; }
-
 * {
   font-family: "Crimson Text", serif;
   -webkit-font-smoothing: antialiased;
