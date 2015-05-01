@@ -21,7 +21,7 @@ header {
       padding-left: 1rem; }
 
 .main-cta {
-  padding: 15% 0 0 0; }
+  padding: 10% 0 0 0; }
   .main-cta h1 {
     color: #fff; }
   .main-cta h2 {
@@ -37,13 +37,15 @@ header {
   .main-cta-btn:hover {
     background: #242133; }
 
-.event-cta h1 {
-  color: #fff;
-  font-size: 1.4rem;
-  text-align: center;
-  background: #242133;
-  margin: 0;
-  padding: 0.5rem 0; }
+.event-cta {
+  margin-top: 10%; }
+  .event-cta h1 {
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    background: #242133;
+    margin: 0;
+    padding: 0.5rem 0; }
 
 .event-unit {
   position: relative; }
@@ -56,6 +58,25 @@ header {
   height: 50px;
   border-radius: 0.5rem;
   background: #a99c67; }
+  .secondary-cta-btn:hover {
+    background: #242133; }
+
+.info-section {
+  margin: 5% 0; }
+  .info-section h3 {
+    color: #a99c67; }
+  .info-section h5 {
+    margin-bottom: 2rem; }
+
+.book-us-cta {
+  background: url("../images/full-width-module-1.jpg");
+  width: 100%;
+  height: 75%; }
+
+.book-us-cta {
+  padding-top: 15%; }
+  .book-us-cta h1 {
+    color: #fff; }
 
 body {
   font-family: "Crimson Text", serif;
