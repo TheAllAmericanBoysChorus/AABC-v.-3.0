@@ -1,0 +1,8 @@
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Sass Error: Undefined variable: \"$brand-gold\". \A         on line 5 of \\Users\\garrettsanderson\\Desktop\\AABC-v.-3.0\\sass\\home.sass \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

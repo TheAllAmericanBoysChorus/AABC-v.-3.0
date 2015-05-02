@@ -1,47 +1,27 @@
 {
-    "debug": false,
-    "lintScripts": false,
-    "preprocessorLocations": [
-        "sass"
-    ],
-    "preprocessorScriptOutput": "js",
-    "preprocessorStyleOutput": "css",
-    "projectName": "Project Name",
-    "projectDescription": "Project Description",
-    "publishedId": null,
-    "serverHostname": null,
-    "serverPort": null,
-    "templateDirectory": "templates",
-    "templateDefaultLayout": "layout",
-    "templateDefaultPage": "index",
-    "type": "simple",
-    "useCompass": false,
-    "simpleModePartnerServer": null,
-    "simpleModeFileTypes": null,
-    "modelSource": null,
-    "domain": null,
-    "convertHtml": {
-        "path": null,
-        "extension": ".html",
-        "ignoreUrls": null,
-        "relativePaths": false,
-        "default": null
-    },
-    "followLeader": true,
-    "routes": null,
-    "customRuby": false,
-    "customRubyPath": null,
-    "remoteDebugPort": 0,
-    "optimiseImages": true,
-    "password": null,
-    "ignoreDir": [
-        "node_modules"
-    ],
-    "customTodos": null,
-    "autoPrefixer": null,
-    "sass": null,
-    "sitemap": false,
-    "less": null,
-    "optimiseSVG": true,
-    "reload": 0
+  "convertHtml": {
+    "relativePaths": false
+  },
+  "customRubyPath": null,
+  "debug": false,
+  "domain": null,
+  "followLeader": false,
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": [
+    "sass"
+  ],
+  "preprocessorScriptOutput": "js",
+  "preprocessorStyleOutput": "css",
+  "projectDescription": "My project description",
+  "projectName": "AABC-v.-3.0",
+  "publishedId": null,
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModePartnerServer": null,
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "simple",
+  "useCompass": false
 }

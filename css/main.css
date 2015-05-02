@@ -78,11 +78,6 @@ header {
   .book-us-cta h1 {
     color: #fff; }
 
-body {
-  font-family: "Crimson Text", serif;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased; }
-
 h1, h2, h3, h4, h5, h6, p, button {
   font-family: "Crimson Text", serif;
   -webkit-font-smoothing: antialiased;
