@@ -1,4 +1,24 @@
 /**** Imports *** */
+h1, h2, h3, h4, h5, h6, p, button {
+  font-family: "Crimson Text", serif;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.7rem; }
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto; }
+
 /* Variables */
 /************** Brand Colors ************** */
 header {
@@ -23,9 +43,11 @@ header {
 .main-cta {
   padding: 10% 0 0 0; }
   .main-cta h1 {
-    color: #fff; }
+    color: #fff;
+    line-height: 3rem; }
   .main-cta h2 {
-    color: #fff; }
+    color: #fff;
+    line-height: 3rem; }
 
 .main-cta-btn {
   background: #a99c67;
@@ -38,7 +60,7 @@ header {
     background: #242133; }
 
 .event-cta {
-  margin-top: 10%; }
+  margin-top: -10%; }
   .event-cta h1 {
     color: #fff;
     font-size: 1.4rem;
@@ -46,6 +68,8 @@ header {
     background: #242133;
     margin: 0;
     padding: 0.5rem 0; }
+  .event-cta img {
+    width: 100%; }
 
 .event-unit {
   position: relative; }
@@ -76,21 +100,5 @@ header {
 .book-us-cta {
   padding-top: 15%; }
   .book-us-cta h1 {
-    color: #fff; }
-
-h1, h2, h3, h4, h5, h6, p, button {
-  font-family: "Crimson Text", serif;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased; }
-
-.clearfix:after {
-  content: " ";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both; }
-
-.container {
-  max-width: 1200px;
-  width: 90%;
-  margin: 0 auto; }
+    color: #fff;
+    line-height: 3rem; }

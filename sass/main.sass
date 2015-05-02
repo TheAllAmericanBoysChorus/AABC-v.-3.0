@@ -1,14 +1,13 @@
 /**** Imports ****/
 
-@import 'variables.sass'
-@import 'header.sass'
-@import 'home.sass'
-
 
 h1, h2, h3, h4, h5, h6, p, button
 	font-family: 'Crimson Text', serif
 	-webkit-font-smoothing: antialiased
 	font-smoothing: antialiased
+
+h1, h2, h3, h4, h5, h6
+	line-height: 1.7rem
 
 .clearfix:after
 	content: " " /* Older browser do not support empty content */
@@ -21,4 +20,11 @@ h1, h2, h3, h4, h5, h6, p, button
 	max-width: 1200px
 	width: 90%
 	margin: 0 auto
+
+@import 'variables.sass'
+@import 'header.sass'
+@import 'home.sass'
+
+
+
 
