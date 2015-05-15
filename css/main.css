@@ -115,3 +115,35 @@ header {
   .contact-home h2 {
     color: #fff;
     line-height: 3rem; }
+
+.footer-1 {
+  background: #242133;
+  padding: 4rem 0; }
+
+.footer-1 ul {
+  list-style: none; }
+
+.footer-1 ul li a {
+  color: #fff;
+  font-weight: 200;
+  font-size: 0.8em;
+  opacity: 0.2;
+  transition: all 0.2s ease-in; }
+  .footer-1 ul li a:hover {
+    opacity: 0.6;
+    transition: all 0.2s ease-in; }
+
+.footer-1 h4 {
+  color: #a99c67; }
+
+.social-media-icons-footer ul {
+  list-style: none; }
+  .social-media-icons-footer ul li {
+    display: inline-block;
+    padding-right: 1rem; }
+
+.copyright {
+  color: #fff;
+  opacity: 0.2; }
+  .copyright p {
+    font-size: 0.8em; }
