@@ -21,8 +21,26 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Variables */
 /************** Brand Colors ************** */
-header {
+.main-cta-bg-home {
   background: url("../images/main-banner-img.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 100vh; }
+
+.main-cta-bg-about {
+  background: url("../images/about-us-banner.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 100vh; }
+
+.main-cta-join-the-chorus {
+  background: url("../images/join-the-chorus-banner.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 100vh; }
+
+.main-cta-bg-book-us {
+  background: url("../images/performing-1.jpg");
   width: 100%;
   background-size: cover;
   height: 100vh; }
@@ -58,6 +76,13 @@ header {
   font-size: 1.2rem; }
   .main-cta-btn:hover {
     background: #242133; }
+
+.contain-to-grid {
+  background: #242133; }
+
+.top-bar {
+  background: #242133;
+  border-bottom: 2px #a99c67 solid; }
 
 .event-cta {
   margin-top: -10%; }
@@ -103,11 +128,105 @@ header {
     color: #fff;
     line-height: 3rem; }
 
+.about-us-info-left {
+  width: 100%; }
+  .about-us-info-left h1 {
+    color: #a99c67;
+    font-size: 1.8rem; }
+  .about-us-info-left h5 {
+    color: #5d5d5d;
+    font-size: 1.2rem;
+    font-weight: 600; }
+  .about-us-info-left img {
+    float: left; }
+  .about-us-info-left .image-left {
+    width: 50%;
+    height: 50%;
+    float: left; }
+  .about-us-info-left .content-right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: relative; }
+  .about-us-info-left .content {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    padding-top: 15%;
+    left: 50%;
+    left: 20%; }
+    .about-us-info-left .content p {
+      margin-top: 2rem; }
+
+.about-us-info-right {
+  width: 100%; }
+  .about-us-info-right h1 {
+    color: #a99c67;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+  .about-us-info-right h5 {
+    color: #5d5d5d;
+    font-size: 1.2rem;
+    font-weight: 600; }
+  .about-us-info-right img {
+    float: left; }
+  .about-us-info-right .image-right {
+    width: 50%;
+    float: right; }
+  .about-us-info-right .content-left {
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: relative; }
+  .about-us-info-right .content {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    padding-top: 15%;
+    left: 20%; }
+    .about-us-info-right .content p {
+      margin-top: 2rem; }
+
+.about-us-cta {
+  background: url("../images/footer-bg.png");
+  width: 100%;
+  height: 400px; }
+  .about-us-cta h1 {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-top: 15%; }
+  .about-us-cta .red-cta {
+    background: #a9171c;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    margin-top: 2rem; }
+
+.blue-bg {
+  background: #242133; }
+  .blue-bg h1 {
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 5% 0; }
+
+.quote {
+  color: #fff;
+  font-style: italic;
+  font-weight: 200; }
+
+.quote-person {
+  color: #fff;
+  font-style: italic;
+  font-weight: 500;
+  padding-bottom: 10%; }
+
 .contact-home {
   background: url("../images/contact-form-background.jpg");
   background-size: cover;
   width: 100%;
-  height: 1000px; }
+  height: 1100px; }
   .contact-home h1 {
     color: #fff;
     line-height: 3rem;
@@ -116,9 +235,37 @@ header {
     color: #fff;
     line-height: 3rem; }
 
+form {
+  padding-top: 5rem; }
+
+label {
+  color: #fff; }
+
+input, textarea {
+  opacity: 0.9; }
+
+textarea {
+  height: 300px; }
+
+form input[type="submit"] {
+  width: 100%;
+  background: #a99c67;
+  border: none;
+  height: 3rem;
+  border-radius: 0.5rem;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Crimson Text", serif;
+  opacity: 1;
+  transition: all 0.3s ease-in; }
+  form input[type="submit"]:hover {
+    background: #242133;
+    transition: 0.3s all ease-in; }
+
 .footer-1 {
-  background: #242133;
-  padding: 4rem 0; }
+  background: url("../images/footer-bg.png");
+  padding: 4rem 0 0 0; }
 
 .footer-1 ul {
   list-style: none; }
@@ -135,6 +282,11 @@ header {
 
 .footer-1 h4 {
   color: #a99c67; }
+
+.footer-2 {
+  background: #1f2431;
+  margin-top: 4rem;
+  padding-top: 1.2rem; }
 
 .social-media-icons-footer ul {
   list-style: none; }
