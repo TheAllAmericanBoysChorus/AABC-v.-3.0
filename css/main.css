@@ -128,6 +128,36 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     line-height: 3rem; }
 
+
+.book-us-1 {
+  width: 33.3333%;
+  float: left;
+  height: 300px;
+  overflow: hidden;
+  transition: 0.3s all ease-in;
+}
+
+.book-us-1:hover {
+  opacity: 0.8;
+  transition: 0.3s all ease-in;
+  cursor: pointer;
+}
+
+.create-buzz {
+  padding: 5rem 0;
+}
+
+.create-buzz h1 {
+  color: #a99c67;
+  line-height: 3rem;
+  font-size: 2.3rem;
+}
+
+.create-buzz h5 {
+  font-size: 1.5rem;
+  color: #5d5d5d;
+}
+
 .about-us-info-left {
   width: 100%; }
   .about-us-info-left h1 {
