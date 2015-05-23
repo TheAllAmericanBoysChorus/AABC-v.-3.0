@@ -58,13 +58,6 @@
 	&:hover
 		background: $brand-dark-blue
 
-.contain-to-grid
-	background: $brand-dark-blue
-
-.top-bar
-	background: $brand-dark-blue
-	border-bottom: 2px $brand-gold solid
-
 .event-cta
 	margin-top: -10%
 
@@ -93,5 +86,43 @@
 
 	&:hover
 		background: $brand-dark-blue
+
+
+.top-bar
+	background: $brand-dark-blue
+
+.contain-to-grid
+	background: $brand-dark-blue
+	border-bottom: 2px solid $brand-gold	
+
+.top-bar.expanded .title-area
+	background: $brand-dark-blue
+
+.top-bar-section ul li
+	background: $brand-dark-blue
+
+.top-bar-section ul li a:hover
+	background: $brand-gold
+
+@media only screen and (min-width: 40.0625em)
+	.top-bar-section li:not(.has-form) a:not(.button)
+		background: #242133
+		line-height: 2.8125rem
+		padding: 0 0.9375rem
+
+	.top-bar-section li:not(.has-form) a:not(.button):hover
+		background: $brand-gold
+		transition: 0.1s all ease-in
+
+	.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button)
+		background: $brand-dark-blue
+
+	.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover
+		background: $brand-gold
+
+	.top-bar-section ul li 
+		background: $brand-dark-blue
+
+
 
 
