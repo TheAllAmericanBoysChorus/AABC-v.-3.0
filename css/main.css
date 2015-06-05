@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 200px; }
 
+.row .full {
+  width: 100%; }
+
 /* Variables */
 /************** Brand Colors ************** */
 .main-cta-bg-home {
@@ -142,6 +145,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .top-bar-section ul li {
     background: #242133; } }
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background: #a99c67; }
+  .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+    background: #a9171c; }
+
 .info-section {
   margin: 5% 0; }
   .info-section h3 {
@@ -159,6 +167,34 @@ h1, h2, h3, h4, h5, h6 {
   .book-us-cta h1 {
     color: #fff;
     line-height: 3rem; }
+
+.home-widget-left {
+  background: url("../images/film.jpg");
+  background-size: cover;
+  height: 400px;
+  float: left;
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center; }
+
+.home-widget-left:hover, .home-widget-right:hover {
+  opacity: 0.8;
+  transition: 0.4s all ease-in; }
+
+.home-widget-right {
+  background: url("../images/concert-2.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 50%;
+  float: right;
+  position: relative;
+  display: flex;
+  align-items: center; }
+
+.home-widget-right h1, .home-widget-left h1 {
+  color: #fff;
+  margin: 0 auto; }
 
 .about-us-info-left {
   width: 100%; }
@@ -303,11 +339,22 @@ h1, h2, h3, h4, h5, h6 {
     height: 400px;
     display: inline-block; } }
 .blue-bg {
-  background: #242133; }
+  background: url("../images/footer-bg.png");
+  background-size: cover;
+  width: 100%; }
   .blue-bg h1 {
-    color: #fff;
+    color: #a99c67;
     font-size: 1.8rem;
-    padding: 5% 0; }
+    padding-top: 5%; }
+  .blue-bg h5 {
+    color: #fff;
+    padding-bottom: 5%; }
+  .blue-bg ul {
+    list-style: none; }
+    .blue-bg ul li {
+      color: #fff;
+      opacity: 0.5;
+      font-family: "Crimson Text", serif; }
 
 .quote {
   color: #fff;
