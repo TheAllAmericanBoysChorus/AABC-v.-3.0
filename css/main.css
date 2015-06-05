@@ -53,6 +53,24 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   height: 100vh; }
 
+.main-cta-bg-weddings {
+  background: url("../images/wedding-banner.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 100vh; }
+
+.main-cta-bg-film {
+  background: url("../images/film-2.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 100vh; }
+
+.main-cta-bg-private-parties {
+  background: url("../images/film-2.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 100vh; }
+
 .logo {
   float: left;
   margin: 5px; }
@@ -65,6 +83,12 @@ h1, h2, h3, h4, h5, h6 {
     .social-media-icons ul li {
       display: inline-block;
       padding-left: 1rem; }
+  .social-media-icons img {
+    opacity: 0.5;
+    transition: 0.2s all ease-in; }
+    .social-media-icons img:hover {
+      opacity: 1;
+      transition: 0.2s all ease-in; }
 
 .main-cta {
   padding: 10% 0 0 0; }
@@ -169,18 +193,20 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 3rem; }
 
 .home-widget-left {
-  background: url("../images/film.jpg");
+  background: url("../images/alumni-corner.jpg");
   background-size: cover;
   height: 400px;
   float: left;
   width: 50%;
   position: relative;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  transition: 0.4s all ease-in; }
 
 .home-widget-left:hover, .home-widget-right:hover {
   opacity: 0.8;
-  transition: 0.4s all ease-in; }
+  transition: 0.4s all ease-in;
+  cursor: pointer; }
 
 .home-widget-right {
   background: url("../images/concert-2.jpg");
@@ -190,7 +216,8 @@ h1, h2, h3, h4, h5, h6 {
   float: right;
   position: relative;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  transition: 0.4s all ease-in; }
 
 .home-widget-right h1, .home-widget-left h1 {
   color: #fff;
@@ -345,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
   .blue-bg h1 {
     color: #a99c67;
     font-size: 1.8rem;
-    padding-top: 5%; }
+    padding: 5% 0; }
   .blue-bg h5 {
     color: #fff;
     padding-bottom: 5%; }
