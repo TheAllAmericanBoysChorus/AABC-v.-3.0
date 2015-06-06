@@ -123,9 +123,52 @@ textarea {
 select {
   width: 100%; }
 
-.row {
+  /* Full Width Rows */
+
+  .row-full {
   margin: 0 auto;
   max-width: 100%;
+  width: 100%; }
+  .row-full:before, .row-full:after {
+    content: " ";
+    display: table; }
+  .row-full:after {
+    clear: both; }
+  .row-full.collapse > .column,
+  .row-full.collapse > .columns {
+    padding-left: 0;
+    padding-right: 0; }
+  .row-full.collapse .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .row-full .row {
+    margin: 0 -0.9375rem;
+    max-width: none;
+    width: auto; }
+    .row-full .row:before, .row .row:after {
+      content: " ";
+      display: table; }
+    .row-full .row:after {
+      clear: both; }
+    .row-full .row.collapse {
+      margin: 0;
+      max-width: none;
+      width: auto; }
+      .row-full .row.collapse:before, .row .row.collapse:after {
+        content: " ";
+        display: table; }
+      .row-full .row.collapse:after {
+        clear: both; }
+
+.row-full .column, .columns {
+  padding-left: 0rem !important; 
+  padding-right: 0rem !important; 
+  width: 100%;
+  float: left; }
+
+.row {
+  margin: 0 auto;
+  max-width: 62.5rem;
   width: 100%; }
   .row:before, .row:after {
     content: " ";

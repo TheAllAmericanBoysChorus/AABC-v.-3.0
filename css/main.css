@@ -196,8 +196,6 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../images/alumni-corner.jpg");
   background-size: cover;
   height: 400px;
-  float: left;
-  width: 50%;
   position: relative;
   display: flex;
   align-items: center;
@@ -212,8 +210,6 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../images/concert-2.jpg");
   background-size: cover;
   height: 400px;
-  width: 50%;
-  float: right;
   position: relative;
   display: flex;
   align-items: center;
@@ -223,64 +219,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin: 0 auto; }
 
-.about-us-info-left {
-  width: 100%; }
-  .about-us-info-left h1 {
+.content {
+  margin-left: 7%;
+  margin-top: 5%; }
+  .content h1 {
     color: #a99c67;
-    font-size: 1.8rem; }
-  .about-us-info-left h5 {
-    color: #5d5d5d;
-    font-size: 1.2rem;
-    font-weight: 600; }
-  .about-us-info-left img {
-    float: left; }
-  .about-us-info-left .image-left {
-    width: 50%;
-    height: 50%;
-    float: left; }
-  .about-us-info-left .content-right {
-    width: 50%;
-    height: 100%;
-    float: right;
-    position: relative; }
-  .about-us-info-left .content {
-    position: absolute;
-    width: 60%;
-    top: 50%;
-    padding-top: 15%;
-    left: 50%;
-    left: 20%; }
-    .about-us-info-left .content p {
-      margin-top: 2rem; }
-
-.about-us-info-right {
-  width: 100%; }
-  .about-us-info-right h1 {
-    color: #a99c67;
-    font-size: 1.8rem;
-    line-height: 2rem; }
-  .about-us-info-right h5 {
-    color: #5d5d5d;
-    font-size: 1.2rem;
-    font-weight: 600; }
-  .about-us-info-right img {
-    float: left; }
-  .about-us-info-right .image-right {
-    width: 50%;
-    float: right; }
-  .about-us-info-right .content-left {
-    width: 50%;
-    height: 100%;
-    float: right;
-    position: relative; }
-  .about-us-info-right .content {
-    position: absolute;
-    width: 60%;
-    top: 50%;
-    padding-top: 15%;
-    left: 20%; }
-    .about-us-info-right .content p {
-      margin-top: 2rem; }
+    font-size: 2rem; }
+  .content h5 {
+    padding-bottom: 1.5rem; }
 
 .about-us-cta {
   background: url("../images/footer-bg.png");
@@ -365,6 +311,10 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
     height: 400px;
     display: inline-block; } }
+@media (max-width: 635px) {
+  .content {
+    margin-left: 0%;
+    margin-top: 5%; } }
 .blue-bg {
   background: url("../images/footer-bg.png");
   background-size: cover;
