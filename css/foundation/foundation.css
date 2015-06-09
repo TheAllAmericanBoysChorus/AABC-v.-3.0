@@ -160,7 +160,7 @@ select {
       .row-full .row.collapse:after {
         clear: both; }
 
-.row-full .column, .columns {
+.row-full > .column,  .columns {
   padding-left: 0rem !important; 
   padding-right: 0rem !important; 
   width: 100%;
