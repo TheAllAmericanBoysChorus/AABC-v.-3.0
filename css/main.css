@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
     height: 400px;
     display: inline-block; } }
-@media (max-width: 635px) {
+@media (max-width: 1040px) {
   .content {
     margin-left: 0%;
     margin-top: 5%; } }
@@ -539,9 +539,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Alumni Corner */
 .feautred-alumni {
-  padding: 2rem 0 !important;
+  padding: 2rem 0 4rem 0 !important;
   display: inline-block;
   vertical-align: middle; }
+  .feautred-alumni h1 {
+    padding: 1% 0; }
 
 .alumni-unit {
   opacity: 0.5;
@@ -570,6 +572,15 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.5;
   margin-top: -5px; }
 
+/* Presenters Styles */
+.song-list {
+  margin-bottom: 5rem; }
+  .song-list h2 {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 2rem; }
+
+/* Donate Styles */
 .contact-home {
   background: url("../images/contact-form-background.jpg");
   background-size: cover;
